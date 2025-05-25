@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-container">
+            <h1 class="project-heading">MOCK MUSICAL INSTRUMENT </h1>
+            <h1 class="project-heading">PIANO</h1>
+            <p class="description">
+                Experience the beauty of the piano right from your browser! 
+                This interactive digital piano lets you play notes, 
+                hear sounds, and explore musical creativity. 
+                Whether you're learning, experimenting,
+                or just having fun, this virtual keyboard is designed for all music lovers.</p>
+            <div class="toggle-container">                                       <!--AI CODE -->
+                <input type="checkbox" id="dark-mode-toggle">                    <!--...-->
+                <label for="dark-mode-toggle" class="toggle-label">              <!--...-->
+                    <span class="toggle-button"></span>                          <!--...-->
+                </label>
+           </div>
+        <div class="piano-body">
+            <div class="piano">
+            <div class="piano__body">
+            <div class="piano__speaker"></div>
+            <div class="piano__interface">
+                
+                <div class="piano__controls">
+                    <h4 class="piano__heading">PIANO</h4>
+                    <label><input type="radio" class="piano__control__option" name="control" value="letterNotes" checked>Letter Notes</label>
+                    <label><input type="radio" class="piano__control__option" name="control" value="keyboard">Keyboard</label>
+                    <label><input type="radio" class="piano__control__option" name="control" value="none">None</label>
+                </div>
+                <!-- <div class="piano__autoplay">
+                    <h4 class="piano__heading">AUTOPLAY</h4>
+                    <select class="piano__song__list">
+                        <option value="1">Jingle Bells</option>
+                        <option value="2">Happy Birthday</option>
+                    </select>
+                    <label>Tempo:                                      AUTOPLAY FEATURE 
+                        <select class="piano__tempo">
+                            <option value="1">Slow</option>
+                            <option value="2">Normal</option>
+                            <option value="3">Fast</option>
+                        </select>
+                    </label>
+                    <button class="piano__play-btn">Play</button>
+                </div> -->
+            </div>
+            <div class="piano__speaker"></div>
+        </div>
+        <div class="piano__keyboard">
+            
+        </div>
+        </div></div>
+        </div>
+        <div class="instructions">
+            <h2>How to Play the Piano Online 🎹</h2>
+            <ul>
+                <li>Select a mode: <strong>Letter Notes</strong> or <strong>Keyboard</strong></li>
+                <li>Click the piano keys or use your keyboard to play</li>
+                <li>Toggle <strong>Dark Mode</strong> for a different theme</li>
+                <li>Experiment with melodies and enjoy!</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
